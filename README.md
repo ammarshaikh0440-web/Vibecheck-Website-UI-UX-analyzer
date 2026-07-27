@@ -1,23 +1,36 @@
-⚡ VibeCheck — Instant AI-Powered UI/UX Website Analyzer
-VibeCheck is an intelligent, client-first web application designed to conduct rapid "Vibe Check" visual audits on website screenshots. Built for UI/UX designers, developers, and product creators, VibeCheck evaluates visual hierarchy, typography scales, contrast ratios, spacing, and component affordances to deliver actionable design feedback—helping eliminate conversion friction instantly.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-✨ Features
-Instant Visual Audit: Upload any website screenshot to receive a structured UI/UX evaluation report.
+## Getting Started
 
-Client-First Architecture: Performs responsive visual inspection directly within the browser without requiring heavy API calls or backend database dependencies.
+First, run the development server:
 
-Core Design Pillars Evaluated:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Visual Hierarchy & Composition: Hero section layout, focal point clarity, and overall clutter check.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Typography & Readability: Font scale balance, line heights, and accessibility contrast checks.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Color Palette & Aesthetics: Brand color cohesion and high-contrast CTA guidance.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Layout & Spacing: Grid alignment, padding/margin metrics, and whitespace balance.
+## Learn More
 
-Quick Wins: High-impact, copy-paste CSS tweaks to instantly elevate visual appeal.
+To learn more about Next.js, take a look at the following resources:
 
-Interactive About Modal: Built-in project info and creator attribution modal.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Fluid & Responsive UI: Clean dark-mode dashboard styled with modern Tailwind gradients.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
